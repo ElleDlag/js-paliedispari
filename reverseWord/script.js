@@ -6,4 +6,4 @@ function reverseCheck (){
         console.log("è una parola palindroma")
     }else{console.log("non è una parola palindroma")}
 }
-reverseCheck('acca')
+reverseCheck()
