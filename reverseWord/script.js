@@ -1,5 +1,5 @@
-function reverseCheck (myWord){
-    myWord = prompt("inserisci una parola")
+function reverseCheck (){
+    var myWord = prompt("inserisci una parola")
     var arrWord = myWord.split("")
     var wordReverse = arrWord.reverse().join("");
     if(myWord == wordReverse){
