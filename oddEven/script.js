@@ -1,7 +1,7 @@
 var chosen;
 var pcNum = nRandom();
 var usrNum = oddEven();
-var defaultTxt = "User ha dichiarato " + chosen +". La somma tra: "+ pcNum + "+" + usrNum + " è uguale a " + (pcNum+usrNum)
+var defaultTxt = "User ha dichiarato " + chosen +". La somma tra: "+ pcNum + "+" + usrNum + " è uguale a " + (pcNum+usrNum);
 
 //functions
 function nRandom(){
@@ -16,7 +16,9 @@ function oddEven() {
 
 //execution
 if(!((pcNum + usrNum) % 2) && chosen == "pari"){
-    console.log(defaultTxt + "\nVINCE USER" )
+    console.log(defaultTxt + "\nVINCE USER" );
 } else if (((pcNum + usrNum) % 2) > 0 && chosen == "dispari"){
-    console.log(defaultTxt + "\nVINCE USER")
-} else (console.log(defaultTxt + "\nVINCE PC"))
+    console.log(defaultTxt + "\nVINCE USER");
+} else (
+    console.log(defaultTxt + "\nVINCE PC")
+)
